@@ -113,9 +113,8 @@ msgs = pd.read_csv('dataset.csv', sep=',', index_col=False).fillna("")
 
 
 #seleccionamos los datos objetivo:
-
-yy = msgs["Topic"]
 XX = msgs["Message"]
+yy = msgs["Topic"]
 
 
 #separamos datos de entrenamiento
