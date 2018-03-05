@@ -125,7 +125,7 @@ XX = msgs["Message"]
 
 test_prop = 0.2
 X_train, X_test, y_train, y_test = train_test_split(XX, yy, test_size = test_prop,    \
-                                                    random_state = 23)
+                                                    random_state = 22)
 ###Entrenamiento:
 #preprocesamiento:
 token_dict = preprocesamiento(X_train)
