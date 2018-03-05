@@ -109,7 +109,7 @@ def reporteCsvNews(nombArch, X_raw, y_pred):
 
 
 #leemos el archivo de entrenamiento (y prueba)
-msgs = pd.read_csv('blendedAll.csv', sep=',', index_col=False).fillna("")
+msgs = pd.read_csv('dataset.csv', sep=',', index_col=False).fillna("")
 
 
 #seleccionamos los datos objetivo:
